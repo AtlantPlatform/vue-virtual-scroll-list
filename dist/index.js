@@ -531,7 +531,7 @@
       type: Boolean
     },
     source: {
-      type: Object
+      type: [Object, Number, String]
     },
     component: {
       type: [Object, Function]
